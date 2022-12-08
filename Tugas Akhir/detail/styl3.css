@@ -1,0 +1,112 @@
+body {
+    background-image: url(log.png);
+    background-size: cover;
+    font-size: 16px;
+    color: #444;
+    font-family: sans-serif;
+}
+
+.content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    width: 270px;
+    box-shadow: 0 0 10px 5px black;
+    width: 80%;
+    margin: 10px auto;
+}
+
+header {
+    background-color: #91B3BC;
+    padding: 20px 10px;
+    border-radius: 5px;
+    border: 1px solid#f0f0f0;
+    margin-bottom: 10px;
+    color: white;
+}
+
+header h1.judul,
+header h3.deskripsi {
+    text-align: center;
+}
+
+.menu {
+    background-color: #6B82A8;
+    border: 1px solid#f0f0f0;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    color: white;
+}
+
+div.menu ul {
+    list-style: none;
+    overflow: hidden;
+    color: white;
+}
+
+div.menu ul li {
+    float: left;
+    text-transform: uppercase;
+}
+
+div.menu ul li a {
+    display: block;
+    padding: 0 20px;
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    transition: all 0.35 ease-in-out;
+}
+
+div.menu ul li a:hover,
+div.menu ul li a:hoverover {
+    cursor: pointer;
+    color: #fff;
+}
+
+div.badan {
+    background-color: #71808f;
+    border-radius: 5px;
+    border: 1px solid #f0f0f0;
+    margin-bottom: 10px;
+    color: white;
+}
+
+div.halaman {
+    text-align: center;
+    padding: 30px 20px;
+}
+
+div.detail {
+    text-align: center;
+}
+
+footer {
+    background-color: #32394B;
+    padding: 20px 10px;
+    border-radius: 5px;
+    border: 1px solid #f0f0f0;
+    margin-bottom: 10px;
+    color: white;
+}
+
+li.ca {
+    text-align: right;
+}
+
+a.bc {
+    color: aqua;
+}
+
+img.a {
+    padding-top: 1cm;
+    padding-right: 1cm;
+    padding-left: 1cm;
+    width: 45%;
+    height: 35%;
+}
